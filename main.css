@@ -1,0 +1,17 @@
+#ib{
+    text-align: left;
+    color: #ffa1e8;
+    float: left;
+}
+#we{
+    color: #ffdda1;
+    display: block; 
+    overflow: hidden; 
+    padding: 0px 4px 0px 6px;
+    float: center;
+}
+#lr{
+    text-align: right;
+    color: #a1ffd2;
+    float: right;
+}

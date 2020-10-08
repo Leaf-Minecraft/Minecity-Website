@@ -5,13 +5,13 @@
 }
 #we{
     color: #ffdda1;
-    display: block; 
-    overflow: hidden; 
-    padding: 0px 4px 0px 6px;
-    float: center;
+    display: block;  
 }
 #lr{
     text-align: right;
     color: #a1ffd2;
     float: right;
+}
+#mr{
+    float: center;
 }

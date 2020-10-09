@@ -52,7 +52,7 @@ header{
     line-height: 0%;
     text-align: center;
     animation-name: color_change;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 #navi{
     line-height: normal;

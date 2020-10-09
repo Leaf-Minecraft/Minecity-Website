@@ -7,8 +7,8 @@ function frame() {
     if (pos == center) {
         clearInterval(id);
     }else{
-        pos++; 
-        ele.style.left = pos + 'px'; 
+        pos+10; 
+        ele.style.left += pos;
     }
 }
 frame()

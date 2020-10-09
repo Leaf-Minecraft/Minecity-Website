@@ -1,3 +1,4 @@
+'use strict'
 var ele = document.getElementById("wel")   
 var pos = 0;
 var id = setInterval(frame, 2);

@@ -1,6 +1,7 @@
 var ele = document.getElementById("wel")   
 var pos = 0;
-var id = setInterval(frame, 10);
+var id = setInterval(frame, 2);
+var center = (window.innerWidth+window.outerWidth)/2
 function frame() {
   if (pos == center) {
     clearInterval(id);

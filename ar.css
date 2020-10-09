@@ -1,3 +1,7 @@
+@keyframes color_change {
+    0%   {color: black;}
+    100% {color: white;}
+}
 .topnav {
     background-color: rgb(207, 205, 205);
     overflow: hidden;
@@ -47,7 +51,8 @@ header{
     width: 100%;
     line-height: 0%;
     text-align: center;
-    
+    animation-name: color_change;
+    animation-duration: 2s;
 }
 #navi{
     line-height: normal;

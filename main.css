@@ -13,5 +13,6 @@
     float: right;
 }
 #mr{
-    float: center;
+    float: 50%;
+    text-align: center;
 }

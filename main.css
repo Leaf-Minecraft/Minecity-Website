@@ -1,3 +1,7 @@
+@keyframes color_change {
+    0%   {color: black;}
+    100% {color: white;}
+}
 #ib{
     text-align: left;
     color: #ffa1e8;
@@ -15,4 +19,8 @@
 #mr{
     float: 50%;
     text-align: center;
+}
+#wel{
+    animation-name: color_change;
+    animation-duration: 1s;
 }

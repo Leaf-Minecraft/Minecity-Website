@@ -1,8 +1,3 @@
-@keyframes move{
-    0% {text-align: 0%;}
-    50% {text-align: 25%;}
-    100% {text-align: center;}
-}
 #ib{
     text-align: left;
     color: #ffa1e8;
@@ -11,8 +6,6 @@
 #we{
     color: #ffdda1;
     display: block; 
-    animation-name: move;
-    animation-duration: 10s;
 }
 #lr{
     text-align: right;

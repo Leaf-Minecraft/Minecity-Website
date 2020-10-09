@@ -1,10 +1,10 @@
 'use strict'
 var ele = document.getElementById("we")   
 var pos
-var center = screen.width/2
+var center = window.width/2
 var posi
 console.log(center)
-console.log(screen.width)
+console.log(window.width)
 
 while (pos >= center) {
     pos+10

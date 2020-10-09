@@ -10,5 +10,5 @@ while (pos >= center) {
     pos+10;
     posi = pos + px 
     ele.style.left = posi;
-    await(0.01)
+    await(10)
 }

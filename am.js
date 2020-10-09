@@ -4,7 +4,7 @@ var pos = 0;
 var id = setInterval(frame, 2);
 var center = screen.width/2
 function frame() {
-  if (pos == center) {
+  if (pos == centerpx) {
     clearInterval(id);
   } else {
     pos++; 

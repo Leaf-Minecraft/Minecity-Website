@@ -25,5 +25,12 @@
     animation-duration: 1s; 
 }
 #re{
-    
+    text-align: left;
+    font-size: 10px;
+    line-height: 0.01in;
+}
+#sk{
+    text-align: left;
+    line-height: 00.01in;
+    font-size: 10px;
 }

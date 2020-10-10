@@ -1,3 +1,7 @@
+@-webkit-keyframes color_change {
+    0%   {color: black;}
+    100% {color: white;}
+}
 @keyframes color_change {
     0%   {color: black;}
     100% {color: white;}
@@ -21,16 +25,21 @@
     text-align: center;
 }
 #wel{
-    animation-name: color_change;
-    animation-duration: 1s; 
+    -webkit-animation-name: color_change;
+            animation-name: color_change;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s; 
 }
 #re{
     text-align: left;
     font-size: 10px;
-    line-height: 0.01in;
+    line-height: 0.05in;
 }
 #sk{
     text-align: left;
-    line-height: 00.01in;
+    line-height: 00.05in;
     font-size: 10px;
+}
+#req{
+    color: rgb(168, 223, 255);
 }

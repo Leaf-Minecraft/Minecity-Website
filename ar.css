@@ -42,8 +42,6 @@ header{
             animation-name: color_change;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
-}
-#navi{
     line-height: normal;
 }
 #tt{
@@ -60,4 +58,8 @@ footer{
             animation-name: img_ani;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

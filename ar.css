@@ -26,7 +26,7 @@ ul {
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    margin-top: 185px;
+    padding-top: 185px;
     text-align: center;
     background-color: black;
 }
@@ -42,7 +42,7 @@ header{
             animation-name: color_change;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
-    line-height: normal;
+    line-height: 0px;
 }
 #tt{
     font-family: 'Kalam', cursive;
@@ -62,4 +62,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+a{
+    color: white;
 }

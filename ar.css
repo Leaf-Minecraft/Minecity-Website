@@ -10,7 +10,7 @@ ul {
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    padding-top: 185px;
+    padding-top: 175px;
     text-align: center;
     background-color: black;
 }
@@ -19,7 +19,6 @@ header{
     color: white;
     position: fixed;
     top: 0;
-    width: 100%;
     line-height: 0%;
     text-align: center;
 }

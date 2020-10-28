@@ -10,17 +10,14 @@ ul {
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    padding-top: 175px;
     text-align: center;
     background-color: black;
 }
 header{
     font-family: 'Raleway', sans-serif;
     color: white;
-    position: fixed;
-    top: 0;
     line-height: 0%;
-    text-align: center;
+    align-items: center;
 }
 #tt{
     font-family: 'Kalam', cursive;

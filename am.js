@@ -7,8 +7,8 @@ console.log(center)
 console.log(window.width)
 
 while (pos <= center) {
-    pos+10
+    pos+1
     posi = pos + px 
     ele.style.left = posi
-    await(10)
+    await(0.01)
 }

@@ -1,8 +1,1 @@
-function ton() {
-  var x = document.getElementById("tn");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+function ton(){var a=document.getElementById("tn");"topnav"===a.className?a.className+="responsive":a.className="topnav"}

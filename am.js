@@ -12,3 +12,4 @@ while (pos <= center) {
     ele.style.left = posi;
     await(0.01);
 }
+var tween = createjs.Tween.get(myTarget)

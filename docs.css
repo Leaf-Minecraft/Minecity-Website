@@ -17,8 +17,3 @@ button:hover{
     color: black;
     border: 2px solid rgb(99, 99, 99);
 }
-button:hover{
-    animation-name: change;
-    animation-duration: 0.75s;
-    animation-direction: reverse; 
-}

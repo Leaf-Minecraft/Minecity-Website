@@ -1,0 +1,39 @@
+@-webkit-keyframes change{
+    from{background: black;color: white; border-color: rgb(228, 228, 228);}
+    to{background:rgb(231, 231, 231);color: black;border-color: rgb(99, 99, 99);}
+}
+@keyframes change{
+    from{background: black;color: white; border-color: rgb(228, 228, 228);}
+    to{background:rgb(231, 231, 231);color: black;border-color: rgb(99, 99, 99);}
+}
+@-webkit-keyframes nothing{}
+@keyframes nothing{}
+button{
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(228, 228, 228);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    -webkit-animation-name: change;
+            animation-name: change;
+    -webkit-animation-duration: 0.75s;
+            animation-duration: 0.75s;
+    background: rgb(231, 231, 231);
+    color: black;
+    border: 2px solid rgb(99, 99, 99);
+}
+#dd{
+    border-radius: 0%;
+}
+#dd:hover{
+    border-radius: 0%;
+    -webkit-animation-name: nothing;
+            animation-name: nothing;
+    -webkit-animation-duration: 10;
+            animation-duration: 10;
+    -webkit-animation-iteration-count:infinite;
+            animation-iteration-count:infinite;
+}
